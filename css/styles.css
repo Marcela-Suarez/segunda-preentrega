@@ -1,0 +1,227 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.body{
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    padding-bottom: 15rem;
+    color: rgb(25, 7, 41);
+    margin: (1, 1, 1, 1);
+}
+
+.grid-container {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "header"
+    "main"
+    "footer"
+} 
+
+
+header {
+    font-size: 100%;
+    text-decoration: none;
+    text-align:end;
+    background-color: rgb(188, 157, 218);
+    opacity: 0.3;
+    padding: 1rem;
+    grid-area:header;
+}
+
+main{
+    grid-area: main;
+}
+
+footer {
+    background-color: rgb(188, 157, 218);
+    opacity: 0.3;
+    width:100%;
+    padding: 0.5rem;
+    text-align: center;
+    grid-area: footer;    
+    position: absolute;
+}
+
+/*index*/
+nav ul li {
+    display: inline;
+    margin-right: 3rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li:hover{
+    background-color: blueviolet;
+    transition: 1s;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(36, 18, 50);
+}
+
+.logo {
+    text-align: left;     
+}
+
+h1 {
+    text-align: center;
+    font-size: 300%;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 2px 2px 5px rgb(220, 194, 236);
+}
+h2 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.imagen_principal {
+    text-align: center;
+    max-width: 100%;
+    grid-area: imagen;
+}
+
+.historia {
+    background-color: rgba(187, 167, 198, 0.653);
+    grid-area: historia;
+
+}
+article {
+    margin-left: 1rem;
+    margin-right 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/*habitaciones*/
+.card {
+    border: double 0.2rem rgb(42, 8, 84);
+    padding: 2rem;
+    display: inline-block;
+    margin: 2rem;
+    background-image: linear-gradient(to bottom right, rgb(216, 156, 231), rgb(237, 216, 170));
+
+
+}
+
+.card__texto {
+    font-size: 1.2rem;
+    margin-bottom: 0,5rem;
+    text-align: center;
+}
+
+.boton:hover{
+    padding: 1rem;
+    margin-top: 2rem;
+    border-bottom-color: rgb(209, 177, 239);
+    background-color: blueviolet;
+    transition: all .05s;
+}
+
+.habitacion__img {
+    max-width: 100%;
+    width: 30rem;
+    height: 25rem;
+}
+
+.video {
+    text-align: center;
+}
+
+/*contacto*/
+
+.contenedor {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 3rem auto 3rem;
+    grid-template-areas:
+    "header header"
+    "formulario mapa "
+    "footer footer "
+    ;
+}
+
+
+.caja-contacto {
+    grid-area: formulario;
+    background-color: rgb(255, 255, 255);
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+
+}
+.contacto {
+    border: double 0.2rem rgb(42, 8, 84);
+    margin-inline:20rem;
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/light-grey-terrazzo.png);
+}
+
+input:focus{
+    width: 20rem;
+}
+
+
+h3 {
+    text-align: center;
+    color: rgb(40, 9, 68)
+}
+
+.mapa {
+    background-color: rgb(248, 248, 248);
+    text-align: center;
+    grid-area: mapa;
+    text-align: center;
+    padding: 4 rem;
+
+}
+
+/*recreacion*/
+.recreacion {
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/light-grey-terrazzo.png);
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3rem 20rem 25rem 3rem;
+    grid-template-areas: 
+    "header"
+    "horarios"
+    "galeria"
+    "footer"
+    ;
+}
+
+.horarios {
+    grid-area: horarios;
+}
+
+table {
+    color: rgb(40, 9, 68);
+    text-align: center;
+    margin-top: 7rem ;
+    margin-left: 15rem;
+    background: white;
+    bottom: 15rem;
+}
+
+.galeria-recreacion {
+    grid-area: galeria;
+    display: flex;
+
+    justify-content: space-around;
+    
+}
+
+
+/*resto*/
+
+.menu {
+
+    text-align: center;
+    background-image: linear-gradient(to bottom, rgb(245, 220, 245), rgb(203, 194, 132));
+}

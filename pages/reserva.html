@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icono inicio.png"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,100;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Reserva</title>
+</head>
+<body>
+    <div class="contenedor">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="Hotel.html">Hotel</a></li>
+                    <li><a href="resto.html">Resto</a></li>
+                    <li><a href="recreacion.html">Recreación</a></li>
+                    <li><a href="reserva.html">Reserva</a></li>
+                </ul>
+            </nav>
+    
+        </header>
+
+            <main class="caja-contacto">
+            <h2>Realice su reserva</h2>
+            <form class="contacto">
+                
+                    <legend>Complete sus datos</legend>
+    
+                <div>
+                    <label for="nombre">Nombre y apellido</label>
+                    <input type="text" name="" id="nombre" required>
+                </div>
+                <div>
+                    <label for="email">Su correo</label>
+                    <input type="email" id="email" required>
+                </div>
+    
+                <div>
+                    <label for="telefono">Telefono</label>
+                    <input type="telefono"id="telefono" required>
+                </div>
+    
+    
+                <div>
+                    <p>¿Que desea Reservar?</p>
+                    <label for="varias1">Resto</label>
+                    <input type="checkbox" name="" id="varias1">
+    
+                    <label for="varias2">Hotel</label>
+                    <input type="checkbox" name="" id="varias2">
+    
+                    <label for="varias3">Paquetes</label>
+                    <input type="checkbox" name="" id="varias3">
+                </div>
+                <div>
+                    <p>Eleija su tipo de habitación</p>
+                    <label for="opcion1">Individual</label>
+                    <input type="radio" name="opciones" id="opcion1">
+    
+                    <label for="opcion2">Matrimonial</label>
+                    <input type="radio" name="opciones" id="opcion2">
+    
+                    <label for="opcion3">Familia</label>
+                    <input type="radio" name="opciones" id="opcion3">
+                </div>
+    
+    
+                <div>
+                    <label for="seleciona">Cantidad de personas a reservar</label>
+                    <select id="selecciona">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="mas-persona">Mas personas</option>
+    
+                </div>
+                <div>
+                    <label for="texto">Comentarios</label>
+                    <textarea id="texto" cols="30" rows="10" maxlength="200"></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Borrar formulario">
+                </div> 
+            </form>
+            </main>
+    
+    
+            <aside class="mapa">
+                <h4>Como llegar</h4>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53895.42118409031!2d-63.27159484180083!3d-32.4067317376559!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95cc42fb51306dc1%3A0xbfb3fffbd425c6b1!2zVmlsbGEgTWFyw61hLCBDw7NyZG9iYQ!5e0!3m2!1ses-419!2sar!4v1668639453084!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </aside>
+            
+            <footer>
+                <p>Esta pagina es meramente ilusrativa</p>
+                <p>Telefono: +543442484757848</p>
+                <p>Mail: lamansion@gmail.com</p>
+            </footer>
+    
+        </div>
+        
+
+
+    </body>
+</html>
