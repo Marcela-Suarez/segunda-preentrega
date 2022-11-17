@@ -9,6 +9,7 @@
     padding-bottom: 15rem;
     color: rgb(25, 7, 41);
     margin: (1, 1, 1, 1);
+    max-width: 90%;
 }
 
 .grid-container {
@@ -84,6 +85,7 @@ h2 {
 .imagen_principal {
     text-align: center;
     max-width: 100%;
+    position: relative;
     grid-area: imagen;
 }
 
@@ -94,7 +96,7 @@ h2 {
 }
 article {
     margin-left: 1rem;
-    margin-right 1rem;
+    margin-right: 1rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
@@ -106,8 +108,6 @@ article {
     display: inline-block;
     margin: 2rem;
     background-image: linear-gradient(to bottom right, rgb(216, 156, 231), rgb(237, 216, 170));
-
-
 }
 
 .card__texto {
@@ -187,7 +187,7 @@ h3 {
     position: relative;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 3rem 20rem 25rem 3rem;
+    grid-template-rows: 3rem 20rem auto 3rem;
     grid-template-areas: 
     "header"
     "horarios"
@@ -211,10 +211,10 @@ table {
 
 .galeria-recreacion {
     grid-area: galeria;
+    max-width: 40%;
     display: flex;
-
-    justify-content: space-around;
-    
+    flex-direction: column;
+    justify-content: center;    
 }
 
 
@@ -224,4 +224,19 @@ table {
 
     text-align: center;
     background-image: linear-gradient(to bottom, rgb(245, 220, 245), rgb(203, 194, 132));
+}
+
+@media screen and (max-width:1015px){
+    .grid-container {
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 3rem auto 3rem;
+        grid-template-areas:
+        "header"
+        "main"
+        "footer"
+    } 
+
+    
 }
