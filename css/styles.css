@@ -178,6 +178,7 @@ h3 {
     grid-area: mapa;
     text-align: center;
     padding: 4 rem;
+    justify-content: center;
 
 }
 
