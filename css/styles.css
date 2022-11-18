@@ -57,6 +57,10 @@ ul {
     list-style-type: none;
 }
 
+li {
+    list-style-type: none;
+}
+
 li:hover{
     background-color: blueviolet;
     transition: 1s;
