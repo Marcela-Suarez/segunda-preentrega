@@ -1,3 +1,5 @@
+/*elementos generales para todas las pages*/
+
 .body{
     font-family: 'Roboto', sans-serif;
     position: relative;
@@ -23,7 +25,6 @@ header {
     text-decoration: none;
     background-color: rgb(188, 157, 218);
     opacity: 0.3;
-    padding: 1rem;
     grid-area:header;
     display: flex;
     justify-content: flex-end;
@@ -33,12 +34,19 @@ main{
     grid-area: main;
 }
 
-/*index*/
+footer {
+    background-color: rgb(188, 157, 218);
+    opacity: 0.3;
+    width:100%;
+    padding: 0.5rem;
+    text-align: center;
+    grid-area: footer;    
+    position: absolute;
+}
 
 ul {
     list-style-type: none;
     display: flex;
-    flex-direction: row-reverse;
     align-content: space-around 1rem; 
 
 
@@ -46,6 +54,7 @@ ul {
 
 li {
     list-style-type: none;
+    margin: 1rem;
 }
 
 li:hover{
@@ -63,22 +72,13 @@ a {
     text-align: left;     
 }
 
-footer {
-    background-color: rgb(188, 157, 218);
-    opacity: 0.3;
-    width:100%;
-    padding: 0.5rem;
-    text-align: center;
-    grid-area: footer;    
-    position: absolute;
-
-}
-
+/*index*/
 h1 {
     text-align: center;
     font-size: 300%;
     font-family: 'Roboto', sans-serif;
     text-shadow: 2px 2px 5px rgb(220, 194, 236);
+    padding: 2rem;
 }
 h2 {
     text-align: center;
@@ -90,6 +90,7 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 2rem;
 }
 
 .historia {
@@ -155,7 +156,7 @@ img {
 .contenedor {
     position: relative;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 3rem auto 3rem;
     grid-template-areas:
     "header header"
@@ -169,12 +170,12 @@ img {
     grid-area: formulario;
     background-color: rgb(255, 255, 255);
     margin-top: 1rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 
 }
 .contacto {
     border: double 0.2rem rgb(42, 8, 84);
-    margin-inline:20rem;
+    margin-inline: 5rem;
     background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/light-grey-terrazzo.png);
 }
 
@@ -204,7 +205,7 @@ h3 {
     position: relative;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 3rem 20rem auto 3rem;
+    grid-template-rows: 3rem auto auto 3rem;
     grid-template-areas: 
     "header"
     "horarios"
@@ -228,10 +229,11 @@ table {
 
 .galeria-recreacion {
     grid-area: galeria;
-    max-width: 40%;
+    margin-bottom: 3rem;
+    margin-top: 4rem;
     display: flex;
-    flex-direction: column;
-    justify-content: center;    
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 
