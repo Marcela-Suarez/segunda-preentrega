@@ -109,17 +109,20 @@ img {
 }
 
 /*habitaciones*/
+
 .caja-habitaciones {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    justify-items: center;
+    ;
 }
 
 .card {
     border: double 0.2rem rgb(42, 8, 84);
     display: inline-block;
     background-image: linear-gradient(to bottom right, rgb(216, 156, 231), rgb(237, 216, 170));
-
+    grid-area: card;
 }
 
 .card__texto {
@@ -140,6 +143,7 @@ img {
     max-width: 100%;
     width: 30rem;
 }
+
 
 .video {
     text-align: center;
