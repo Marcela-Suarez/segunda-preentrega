@@ -123,6 +123,7 @@ img {
     display: inline-block;
     background-image: linear-gradient(to bottom right, rgb(216, 156, 231), rgb(237, 216, 170));
     grid-area: card;
+    margin-bottom: 2rem;
 }
 
 .card__texto {
