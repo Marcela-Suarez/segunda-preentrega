@@ -26,9 +26,7 @@ header {
     padding: 1rem;
     grid-area:header;
     display: flex;
-    flex-direction: row-reverse;
-    align-content: space-around;
-
+    justify-content: flex-end;
 }
 
 main{
@@ -114,6 +112,7 @@ img {
 .caja-habitaciones {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .card {
