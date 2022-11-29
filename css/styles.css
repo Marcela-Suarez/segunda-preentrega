@@ -1,254 +1,228 @@
 /*elementos generales para todas las pages*/
-
-.body{
-    font-family: 'Roboto', sans-serif;
-    position: relative;
-    padding-bottom: 15rem;
-    color: rgb(25, 7, 41);
-    margin: (1, 1, 1, 1);
-    max-width: 90%;
+.body {
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  padding-bottom: 15rem;
+  color: rgb(25, 7, 41);
+  margin: 1, 1, 1, 1;
+  max-width: 90%;
 }
 
 header {
-    font-size: 100%;
-    text-decoration: none;
-    background-color: rgb(188, 157, 218);
-    opacity: 0.3;
-    grid-area:header;
-    display: flex;
-    justify-content: flex-end;
+  font-size: 100%;
+  text-decoration: none;
+  background-color: rgb(188, 157, 218);
+  opacity: 0.3;
+  grid-area: header;
+  display: flex;
+  justify-content: flex-end;
 }
 
-main{
-    grid-area: main;
+main {
+  grid-area: main;
 }
 
 footer {
-    background-color: rgb(188, 157, 218);
-    opacity: 0.3;
-    width:100%;
-    padding: 0.5rem;
-    text-align: center;
-    grid-area: footer;    
-    position: absolute;
+  background-color: rgb(188, 157, 218);
+  opacity: 0.3;
+  width: 100%;
+  padding: 0.5rem;
+  text-align: center;
+  grid-area: footer;
+  position: absolute;
 }
 
 ul {
-    list-style-type: none;
-    display: flex;
-    align-content: space-around 1rem; 
-
-
+  list-style-type: none;
+  display: flex;
+  align-content: space-around 1rem;
 }
 
 li {
-    list-style-type: none;
-    margin: 1rem;
+  list-style-type: none;
+  margin: 1rem;
 }
 
-li:hover{
-    background-color: blueviolet;
-    transition: 1s;
+li:hover {
+  background-color: blueviolet;
+  transition: 1s;
 }
 
 a {
-    text-decoration: none;
-    color: rgb(36, 18, 50);
-    
+  text-decoration: none;
+  color: rgb(36, 18, 50);
 }
 
 .logo {
-    text-align: left;     
+  text-align: left;
 }
 
 /*index*/
 .grid-container {
-    position: relative;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-areas:
-    "header"
-    "main"
-    "footer"
-} 
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas: "header" "main" "footer";
+}
 
 h1 {
-    text-align: center;
-    font-size: 300%;
-    font-family: 'Roboto', sans-serif;
-    text-shadow: 2px 2px 5px rgb(220, 194, 236);
-    padding: 2rem;
+  text-align: center;
+  font-size: 300%;
+  font-family: "Roboto", sans-serif;
+  text-shadow: 2px 2px 5px rgb(220, 194, 236);
+  padding: 2rem;
 }
+
 h2 {
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
 }
 
 .imagen_principal {
-    grid-area: imagen;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: 2rem;
+  grid-area: imagen;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 2rem;
 }
 
 .historia {
-    background-color: rgba(187, 167, 198, 0.653);
-    grid-area: historia;
-
+  background-color: rgba(187, 167, 198, 0.653);
+  grid-area: historia;
 }
+
 article {
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
-
 /*habitaciones*/
-
 .caja-habitaciones {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    justify-items: center;
-    ;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  justify-items: center;
 }
 
 .card {
-    border: double 0.2rem rgb(42, 8, 84);
-    display: inline-block;
-    background-image: linear-gradient(to bottom right, rgb(216, 156, 231), rgb(237, 216, 170));
-    grid-area: card;
-    margin-bottom: 2rem;
+  border: double 0.2rem rgb(42, 8, 84);
+  display: inline-block;
+  background-image: linear-gradient(to bottom right, rgb(216, 156, 231), rgb(237, 216, 170));
+  grid-area: card;
+  margin-bottom: 2rem;
 }
 
 .card__texto {
-    font-size: 1.2rem;
-    margin-bottom: 0,5rem;
-    text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 0, 5rem;
+  text-align: center;
 }
 
-.boton:hover{
-    padding: 1rem;
-    margin-top: 2rem;
-    border-bottom-color: rgb(209, 177, 239);
-    background-color: blueviolet;
-    transition: all 1s;
+.boton:hover {
+  padding: 1rem;
+  margin-top: 2rem;
+  border-bottom-color: rgb(209, 177, 239);
+  background-color: blueviolet;
+  transition: all 1s;
 }
-
 
 .habitacion__img {
-    max-width: 100%;
-    width: 30rem;
+  max-width: 100%;
+  width: 30rem;
 }
 
-
 .video {
-    text-align: center;
+  text-align: center;
 }
 
 /*contacto*/
-
 .contenedor {
-    position: relative;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 5rem auto 3rem;
-    grid-template-areas:
-    "header header"
-    "formulario mapa "
-    "footer footer "
-    ;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 5rem auto 3rem;
+  grid-template-areas: "header header" "formulario mapa " "footer footer ";
 }
-
-
 
 .caja-contacto {
-    grid-area: formulario;
-    background-color: rgb(255, 255, 255);
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-
+  grid-area: formulario;
+  background-color: rgb(255, 255, 255);
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
+
 .contacto {
-    border: double 0.2rem rgb(42, 8, 84);
-    margin-inline: 5rem;
-    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/light-grey-terrazzo.png);
+  border: double 0.2rem rgb(42, 8, 84);
+  margin-inline: 5rem;
+  background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/light-grey-terrazzo.png);
 }
 
-input:focus{
-    width: 20rem;
+input:focus {
+  width: 20rem;
 }
 
 h3 {
-    text-align: center;
-    color: rgb(40, 9, 68)
+  text-align: center;
+  color: rgb(40, 9, 68);
 }
 
 .mapa {
-    text-align: center;
-    grid-area: mapa;
+  text-align: center;
+  grid-area: mapa;
 }
-
 
 /*recreacion*/
 .recreacion {
-    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/light-grey-terrazzo.png);
-    position: relative;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 5rem auto auto 5rem;
-    grid-template-areas: 
-    "header"
-    "horarios"
-    "galeria"
-    "footer"
-    ;
-
+  background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/light-grey-terrazzo.png);
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 5rem auto auto 5rem;
+  grid-template-areas: "header" "horarios" "galeria" "footer";
 }
 
 .horarios {
-    grid-area: horarios;
+  grid-area: horarios;
 }
 
 table {
-    color: rgb(40, 9, 68);
-    text-align: center;
-    margin-top: 7rem ;
-    margin-left: 15rem;
-    background: white;
-    bottom: 15rem;
+  color: rgb(40, 9, 68);
+  text-align: center;
+  margin-top: 7rem;
+  margin-left: 15rem;
+  background: white;
+  bottom: 15rem;
 }
 
 .galeria-recreacion {
-    grid-area: galeria;
-    margin-bottom: 3rem;
-    margin-top: 4rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  grid-area: galeria;
+  margin-bottom: 3rem;
+  margin-top: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
-
 
 /*resto*/
-
 .menu {
-
-    text-align: center;
-    background-image: linear-gradient(to bottom, rgb(245, 220, 245), rgb(203, 194, 132));
+  text-align: center;
+  background-image: linear-gradient(to bottom, rgb(245, 220, 245), rgb(203, 194, 132));
 }
 
-@media screen and (max-width:840px){
-    .contenedor {
-        display: flex;
-        flex-direction: column;
-    }
-    footer {
-        position: relative;
-    }
-    }
+@media screen and (max-width: 840px) {
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+  }
+  footer {
+    position: relative;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
