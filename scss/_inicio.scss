@@ -1,0 +1,29 @@
+.grid-container {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "header"
+    "main"
+    "footer"
+} 
+
+.imagen_principal {
+    grid-area: imagen;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.historia {
+    background-color: rgba(187, 167, 198, 0.653);
+    grid-area: historia;
+
+}
+article {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}

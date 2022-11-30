@@ -1,3 +1,102 @@
+.body {
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  padding-bottom: 15rem;
+  color: rgb(25, 7, 41);
+  margin: 1, 1, 1, 1;
+  max-width: 90%;
+}
+
+header {
+  font-size: 100%;
+  text-decoration: none;
+  background-color: rgb(188, 157, 218);
+  opacity: 0.3;
+  grid-area: header;
+  display: flex;
+  justify-content: flex-end;
+}
+
+main {
+  grid-area: main;
+}
+
+footer {
+  background-color: rgb(188, 157, 218);
+  opacity: 0.3;
+  width: 100%;
+  padding: 0.5rem;
+  text-align: center;
+  grid-area: footer;
+  position: absolute;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  align-content: space-around 1rem;
+}
+
+li:hover {
+  list-style-type: none;
+  margin: 1rem;
+  background-color: blueviolet;
+  transition: 1s;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(36, 18, 50);
+}
+
+.logo {
+  text-align: left;
+}
+
+h1 {
+  text-align: center;
+  font-size: 300%;
+  font-family: "Roboto", sans-serif;
+  text-shadow: 2px 2px 5px rgb(220, 194, 236);
+  padding: 2rem;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+.grid-container {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas: "header" "main" "footer";
+}
+
+.imagen_principal {
+  grid-area: imagen;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.historia {
+  background-color: rgba(187, 167, 198, 0.653);
+  grid-area: historia;
+}
+
+article {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .caja-habitaciones {
   display: flex;
   flex-wrap: wrap;
@@ -126,106 +225,5 @@ h3 {
   }
 }
 /*elementos generales para todas las pages*/
-.body {
-  font-family: "Roboto", sans-serif;
-  position: relative;
-  padding-bottom: 15rem;
-  color: rgb(25, 7, 41);
-  margin: 1, 1, 1, 1;
-  max-width: 90%;
-}
-
-header {
-  font-size: 100%;
-  text-decoration: none;
-  background-color: rgb(188, 157, 218);
-  opacity: 0.3;
-  grid-area: header;
-  display: flex;
-  justify-content: flex-end;
-}
-
-main {
-  grid-area: main;
-}
-
-footer {
-  background-color: rgb(188, 157, 218);
-  opacity: 0.3;
-  width: 100%;
-  padding: 0.5rem;
-  text-align: center;
-  grid-area: footer;
-  position: absolute;
-}
-
-ul {
-  list-style-type: none;
-  display: flex;
-  align-content: space-around 1rem;
-}
-
-li {
-  list-style-type: none;
-  margin: 1rem;
-}
-
-li:hover {
-  background-color: blueviolet;
-  transition: 1s;
-}
-
-a {
-  text-decoration: none;
-  color: rgb(36, 18, 50);
-}
-
-.logo {
-  text-align: left;
-}
-
-.grid-container {
-  position: relative;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-areas: "header" "main" "footer";
-}
-
-h1 {
-  text-align: center;
-  font-size: 300%;
-  font-family: "Roboto", sans-serif;
-  text-shadow: 2px 2px 5px rgb(220, 194, 236);
-  padding: 2rem;
-}
-
-h2 {
-  text-align: center;
-  font-family: "Roboto", sans-serif;
-}
-
-.imagen_principal {
-  grid-area: imagen;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-bottom: 2rem;
-}
-
-.historia {
-  background-color: rgba(187, 167, 198, 0.653);
-  grid-area: historia;
-}
-
-article {
-  margin-left: 1rem;
-  margin-right: 1rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
-img {
-  max-width: 100%;
-}
 
 /*# sourceMappingURL=styles.css.map */
