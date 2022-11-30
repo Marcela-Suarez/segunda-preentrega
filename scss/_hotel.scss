@@ -1,0 +1,57 @@
+.caja-habitaciones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    justify-items: center;
+    ;
+}
+
+.card {
+    border: double 0.2rem rgb(42, 8, 84);
+    display: inline-block;
+    background-image: linear-gradient(to bottom right, rgb(216, 156, 231), rgb(237, 216, 170));
+    grid-area: card;
+    margin-bottom: 2rem;
+}
+
+.card__texto {
+    font-size: 1.2rem;
+    margin-bottom: 0,5rem;
+    text-align: center;
+}
+
+.boton:hover{
+    padding: 1rem;
+    margin-top: 2rem;
+    border-bottom-color: rgb(209, 177, 239);
+    background-color: blueviolet;
+    transition: all 1s;
+}
+
+
+.habitacion__img {
+    max-width: 100%;
+    width: 30rem;
+}
+
+
+.video {
+    text-align: center;
+}
+
+/*contacto*/
+
+.contenedor {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 5rem auto 3rem;
+    grid-template-areas:
+    "header header"
+    "formulario mapa "
+    "footer footer "
+    ;
+}
+
+
+

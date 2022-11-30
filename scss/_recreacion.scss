@@ -1,0 +1,36 @@
+.recreacion {
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/light-grey-terrazzo.png);
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 5rem auto auto 5rem;
+    grid-template-areas: 
+    "header"
+    "horarios"
+    "galeria"
+    "footer"
+    ;
+
+}
+
+.horarios {
+    grid-area: horarios;
+}
+
+table {
+    color: rgb(40, 9, 68);
+    text-align: center;
+    margin-top: 7rem ;
+    margin-left: 15rem;
+    background: white;
+    bottom: 15rem;
+}
+
+.galeria-recreacion {
+    grid-area: galeria;
+    margin-bottom: 3rem;
+    margin-top: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

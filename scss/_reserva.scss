@@ -1,0 +1,40 @@
+.contenedor {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 5rem auto 3rem;
+    grid-template-areas:
+    "header header"
+    "formulario mapa "
+    "footer footer "
+    ;
+}
+
+
+
+.caja-contacto {
+    grid-area: formulario;
+    background-color: rgb(255, 255, 255);
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+
+}
+.contacto {
+    border: double 0.2rem rgb(42, 8, 84);
+    margin-inline: 5rem;
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/light-grey-terrazzo.png);
+}
+
+input:focus{
+    width: 20rem;
+}
+
+h3 {
+    text-align: center;
+    color: rgb(40, 9, 68)
+}
+
+.mapa {
+    text-align: center;
+    grid-area: mapa;
+}

@@ -1,0 +1,15 @@
+.menu {
+
+    text-align: center;
+    background-image: linear-gradient(to bottom, rgb(245, 220, 245), rgb(203, 194, 132));
+}
+
+@media screen and (max-width:840px){
+    .contenedor {
+        display: flex;
+        flex-direction: column;
+    }
+    footer {
+        position: relative;
+    }
+    }
