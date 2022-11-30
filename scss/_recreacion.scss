@@ -13,6 +13,11 @@
 
 }
 
+#carouselExampleIndicators {
+    width: 50px;
+    margin: 0 auto;
+}
+
 .horarios {
     grid-area: horarios;
 }
@@ -26,11 +31,5 @@ table {
     bottom: 15rem;
 }
 
-.galeria-recreacion {
-    grid-area: galeria;
-    margin-bottom: 3rem;
-    margin-top: 4rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
+
+

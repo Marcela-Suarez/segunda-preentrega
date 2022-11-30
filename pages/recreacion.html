@@ -16,15 +16,48 @@
 <body>
     <div class="recreacion" class="container-fluid">
     <header>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="Hotel.html">Hotel</a></li>
-                <li><a href="resto.html">Resto</a></li>
-                <li><a href="recreacion.html">Recreación</a></li>
-                <li><a href="reserva.html">Reserva</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg w-100">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../img/logo banner.png" alt="">
+            </a>
+    
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="hotel.html">Hotel</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="recreacion.html">Recreación</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="resto.html">Resto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="reserva.html">reserva</a>
+                </li>
+                <li class="nav-item dropdown">
+                <!--
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown link
+                </a> -->
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                </ul>
+            </div>
+            </div>
         </nav>
+        </nav>    
     </header>
 
     <main class="horarios">
@@ -78,17 +111,56 @@
     </section>
     </main>
 
-    <div class="galeria-recreacion">
-        <img src="../img/jardines 2.jpg" alt="jardin 2">
-        <img src="../img/lago 3.jpg" alt="lago3">
-        <img src="../img/lago 1.jpg" alt="lago1">
-        <img src="../img/mariposario3.jpg" alt="mari3">
-        <img src="../img/mariposario 1.jpg" alt="mari1">
-        <img src="../img/mariposario.jpg" alt="mari2">
-        <img src="../img/mari4.jpg" alt="mari4">
-        <img src="../img/jardin 4.jpg" alt="jarin4">
-
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true" galeria-recreacion>
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 8"></button>
     </div>
+    <div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="../img/jardin 1.jpg" class="d-block w-100" alt="jardin1">
+    </div>
+    <div class="carousel-item">
+        <img src="../img/lago 1.jpg" class="d-block w-100" alt="lago3">
+    </div>
+    <div class="carousel-item">
+        <img src="../img/lago 3.jpg" class="d-block w-100" alt="lago1">
+    </div>
+    <div class="carousel-item">
+        <img src="../img/mariposa 3.jpg" class="d-block w-100" alt="mari3">
+    </div>
+    <div class="carousel-item">
+        <img src="../img/mariposa 1.jpg" class="d-block w-100" alt="mari1">
+    </div>
+    <div class="carousel-item">
+        <img src="../img/mariposa 2.jpg" class="d-block w-100" alt="mari2">
+    </div>
+    <div class="carousel-item">
+        <img src="../img/jardin 2.jpg" class="d-block w-100" alt="mari4">
+    </div>     
+    <div class="carousel-item">
+        <img src="../img/jardin 3.jpg" class="d-block w-100" alt="jardin4">
+    </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+    </div>
+
+
+
+
 
     <footer>
         <p>Esta pagina es meramente ilusrativa</p>
