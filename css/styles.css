@@ -2,7 +2,7 @@
   font-family: "Roboto", sans-serif;
   position: relative;
   padding-bottom: 15rem;
-  color: rgb(25, 7, 41);
+  color: rgb(7, 1, 12);
   margin: 1, 1, 1, 1;
   max-width: 90%;
 }
@@ -10,11 +10,13 @@
 header {
   font-size: 100%;
   text-decoration: none;
-  background-color: rgb(188, 157, 218);
-  opacity: 0.3;
+  background-color: rgb(227, 184, 243);
+  margin-bottom: 3rem;
+  padding: 2rem;
   grid-area: header;
   display: flex;
   justify-content: flex-end;
+  color: rgb(7, 1, 12);
 }
 
 main {
@@ -22,13 +24,13 @@ main {
 }
 
 footer {
-  background-color: rgb(188, 157, 218);
-  opacity: 0.3;
+  background-color: rgb(227, 184, 243);
+  margin-top: 4rem;
   width: 100%;
-  padding: 0.5rem;
   text-align: center;
   grid-area: footer;
   position: absolute;
+  color: rgb(7, 1, 12);
 }
 
 ul {
@@ -42,6 +44,10 @@ li:hover {
   margin: 1rem;
   background-color: blueviolet;
   transition: 1s;
+}
+
+.navbar-brand {
+  width: 5rem;
 }
 
 a {
@@ -145,12 +151,16 @@ article {
 }
 
 .recreacion {
-  background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/light-grey-terrazzo.png);
   position: relative;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 5rem auto auto 5rem;
   grid-template-areas: "header" "horarios" "galeria" "footer";
+}
+
+#carouselExampleIndicators {
+  width: 50px;
+  margin: 0 auto;
 }
 
 .horarios {
@@ -164,15 +174,13 @@ table {
   margin-left: 15rem;
   background: white;
   bottom: 15rem;
+  margin-bottom: 3rem;
+  background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/light-grey-terrazzo.png);
 }
 
-.galeria-recreacion {
-  grid-area: galeria;
-  margin-bottom: 3rem;
-  margin-top: 4rem;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+#carouselExampleIndicators {
+  width: 50rem;
+  margin: 0 auto;
 }
 
 .contenedor {
@@ -211,8 +219,13 @@ h3 {
 }
 
 .menu {
+  list-style-type: none;
   text-align: center;
   background-image: linear-gradient(to bottom, rgb(245, 220, 245), rgb(203, 194, 132));
+}
+
+.col {
+  width: 24rem;
 }
 
 @media screen and (max-width: 840px) {

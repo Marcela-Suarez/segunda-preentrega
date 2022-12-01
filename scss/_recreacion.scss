@@ -1,5 +1,5 @@
 .recreacion {
-    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/light-grey-terrazzo.png);
+    
     position: relative;
     display: grid;
     grid-template-columns: 1fr;
@@ -29,6 +29,13 @@ table {
     margin-left: 15rem;
     background: white;
     bottom: 15rem;
+    margin-bottom: 3rem;
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/light-grey-terrazzo.png);
+}
+
+#carouselExampleIndicators {
+    width: 50rem;
+    margin: 0 auto
 }
 
 

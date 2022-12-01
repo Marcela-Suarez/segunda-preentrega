@@ -1,7 +1,10 @@
 .menu {
-
+    list-style-type: none;
     text-align: center;
     background-image: linear-gradient(to bottom, rgb(245, 220, 245), rgb(203, 194, 132));
+}
+.col {
+    width: 24rem;
 }
 
 @media screen and (max-width:840px){
