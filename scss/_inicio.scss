@@ -27,3 +27,17 @@ article {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
+
+.carta1 {
+    display: flex;
+    flex-direction: row-reverse;
+    color:rgb(7, 1, 12) ;
+    background-color: rgb(204, 178, 233);
+}
+
+.carta2 {
+    display: flex;
+   justify-content: flex-end;
+    color:rgb(7, 1, 12) ;
+    background-color: rgb(204, 178, 233);
+}

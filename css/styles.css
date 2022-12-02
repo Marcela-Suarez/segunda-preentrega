@@ -11,12 +11,8 @@ header {
   font-size: 100%;
   text-decoration: none;
   background-color: rgb(227, 184, 243);
-  margin-bottom: 3rem;
-  padding: 2rem;
+  margin-bottom: auto;
   grid-area: header;
-  display: flex;
-  justify-content: flex-end;
-  color: rgb(7, 1, 12);
 }
 
 main {
@@ -70,6 +66,11 @@ h1 {
 h2 {
   text-align: center;
   font-family: "Roboto", sans-serif;
+  margin-top: 3rem;
+}
+
+h3 {
+  margin-top: 3rem;
 }
 
 img {
@@ -101,6 +102,20 @@ article {
   margin-right: 1rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+
+.carta1 {
+  display: flex;
+  flex-direction: row-reverse;
+  color: rgb(7, 1, 12);
+  background-color: rgb(204, 178, 233);
+}
+
+.carta2 {
+  display: flex;
+  justify-content: flex-end;
+  color: rgb(7, 1, 12);
+  background-color: rgb(204, 178, 233);
 }
 
 .caja-habitaciones {
@@ -216,12 +231,13 @@ h3 {
 .mapa {
   text-align: center;
   grid-area: mapa;
+  margin-top: 3rem;
 }
 
 .menu {
   list-style-type: none;
   text-align: center;
-  background-image: linear-gradient(to bottom, rgb(245, 220, 245), rgb(203, 194, 132));
+  margin-bottom: 3rem;
 }
 
 .col {
@@ -237,6 +253,5 @@ h3 {
     position: relative;
   }
 }
-/*elementos generales para todas las pages*/
 
 /*# sourceMappingURL=styles.css.map */
