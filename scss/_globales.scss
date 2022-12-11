@@ -2,7 +2,7 @@
     font-family: 'Roboto', sans-serif;
     position: relative;
     padding-bottom: 15rem;
-    color: rgb(7, 1, 12);
+    color: $violeta;
     margin: (1, 1, 1, 1);
     max-width: 90%;
 }
@@ -10,7 +10,7 @@
 header {
     font-size: 100%;
     text-decoration: none;
-    background-color: rgb(227, 184, 243);
+    background-color: $lila;
     margin-bottom:auto;
     grid-area:header;
 }
@@ -19,10 +19,11 @@ header {
 
     main{
     grid-area: main;
+    
 }
 
 footer {
-    background-color: rgb(227, 184, 243);
+    background-color: $lila;
     margin-top: 4rem;
     width:100%;
     text-align: center;
@@ -42,7 +43,7 @@ ul {
 li:hover {
     list-style-type: none;
     margin: 1rem;
-    background-color: blueviolet;
+    background-color: $violeta-oscuro;
     transition: 1s;
 
 }
@@ -53,7 +54,7 @@ li:hover {
 
 a {
     text-decoration: none;
-    color: rgb(36, 18, 50);
+    color: $violeta;
     
 }
 
@@ -68,7 +69,7 @@ h1 {
     text-align: center;
     font-size: 300%;
     font-family: 'Roboto', sans-serif;
-    text-shadow: 2px 2px 5px rgb(220, 194, 236);
+    text-shadow: 2px 2px 5px $lila;
     padding: 2rem;
 }
 h2 {
