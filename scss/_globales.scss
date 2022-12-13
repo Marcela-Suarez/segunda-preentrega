@@ -62,10 +62,7 @@ a {
     text-align: left;     
 }
 
-
-
-
-h1 {
+.titulo {
     text-align: center;
     font-size: 300%;
     font-family: 'Roboto', sans-serif;
@@ -87,3 +84,10 @@ img {
     max-width: 100%;
 }
 
+.botones-generales {
+    padding: 1rem;
+    margin-top: 2rem;
+    border-bottom-color: rgb(209, 177, 239);
+    background-color: blueviolet;
+
+}
