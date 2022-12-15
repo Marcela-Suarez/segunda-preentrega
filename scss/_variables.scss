@@ -3,7 +3,8 @@ $lila: rgb(227, 184, 243);
 $violeta-oscuro:  blueviolet; 
 $arena: rgb(235,227,170);
 
-@mixin grid ($columnas, $espacio) {
-    
-
+@mixin medidas ($superior, $inferior) {
+    margin-top: $superior;
+    margin-bottom: $inferior;    
 }
+

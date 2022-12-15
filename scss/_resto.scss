@@ -2,11 +2,15 @@
     list-style-type: none;
     text-align: center;
     margin-bottom: 3rem;
+    grid-area: menu;
 
 }
 .col {
     width: 24rem;
 }
+
+
+
 
 @media screen and (max-width:840px){
     .contenedor {

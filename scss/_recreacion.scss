@@ -25,11 +25,10 @@
 table {
     color: rgb(40, 9, 68);
     text-align: center;
-    margin-top: 7rem ;
+    @include medidas (7rem, 3rem);
     margin-left: 15rem;
     background: white;
     bottom: 15rem;
-    margin-bottom: 3rem;
     background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/light-grey-terrazzo.png);
 }
 
