@@ -27,16 +27,8 @@ article {
     @include medidas (1rem, 1rem)
 }
 
-.carta1 {
+.eventos {
     display: flex;
-    flex-direction: row-reverse;
-    color:rgb(7, 1, 12) ;
-    background-color: rgb(204, 178, 233);
-}
-
-.carta2 {
-    display: flex;
-   justify-content: flex-end;
-    color:rgb(7, 1, 12) ;
-    background-color: rgb(204, 178, 233);
+    justify-content: space-around;
+    @include medidas (3rem,1rem);
 }
