@@ -1,21 +1,9 @@
-.recreacion {
-    
-    position: relative;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 5rem auto auto 5rem;
-    grid-template-areas: 
-    "header"
-    "horarios"
-    "galeria"
-    "footer"
-    ;
-
-}
 
 #carouselExampleIndicators {
     width: 50px;
     margin: 0 auto;
+    display: flex;
+    position: relative;
 }
 
 .horarios {

@@ -10,6 +10,11 @@
     ;
 }
 
+#texto {
+    @include medidas (2rem, 2rem);
+    margin-left: 4rem;
+    margin-right: 2rem;
+}
 
 
 .caja-contacto {
@@ -34,7 +39,8 @@ h3 {
 }
 
 .botones {
-    @extend .botones-generales
+    @extend .botones-generales;    
+    
 }
 
 .mapa {

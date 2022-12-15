@@ -163,17 +163,11 @@ article {
   grid-template-areas: "header header" "formulario mapa " "footer footer ";
 }
 
-.recreacion {
-  position: relative;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 5rem auto auto 5rem;
-  grid-template-areas: "header" "horarios" "galeria" "footer";
-}
-
 #carouselExampleIndicators {
   width: 50px;
   margin: 0 auto;
+  display: flex;
+  position: relative;
 }
 
 .horarios {
@@ -202,6 +196,13 @@ table {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 5rem auto 3rem;
   grid-template-areas: "header header" "formulario mapa " "footer footer ";
+}
+
+#texto {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 4rem;
+  margin-right: 2rem;
 }
 
 .caja-contacto {
