@@ -8,3 +8,10 @@ $arena: rgb(235,227,170);
     margin-bottom: $inferior;    
 }
 
+
+@mixin margenes ($arriba, $abajo, $derecho, $izquierda) {
+    margin-top: $arriba;
+    margin-bottom: $abajo;
+    margin-right: $derecho;
+    margin-left: $izquierda;
+}

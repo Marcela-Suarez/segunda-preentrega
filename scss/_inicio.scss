@@ -2,6 +2,7 @@
     position: relative;
     display: grid;
     grid-template-columns: 1fr;
+    grid-template-rows: auto;
     grid-template-areas:
     "header"
     "main"
@@ -28,7 +29,11 @@ article {
 }
 
 .eventos {
-    display: flex;
-    justify-content: space-around;
+    @extend .flex;
     @include medidas (3rem,1rem);
+
+}
+.carta {
+    width: 25 rem;
+
 }

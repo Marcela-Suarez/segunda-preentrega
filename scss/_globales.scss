@@ -84,10 +84,16 @@ img {
     max-width: 100%;
 }
 
+/*extend*/
 .botones-generales {
     padding: 1rem;
     border-bottom-color: rgb(209, 177, 239);
     background-color: blueviolet;
     @include medidas (2rem, 1rem)
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
 
 }
